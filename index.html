@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <!-- Configuraciones generales --> 
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Challenge ONE</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500&display=swap" rel="stylesheet">
+    </head>
+    
+    
+    <!-- Desarrollo lógica de control -->
+    <script src="main.js"></script>
+
+
+    <!-- Cuerpo de la página -->
+    <body>
+
+        <!-- Desarrollo de encabezado -->
+        <header>
+            <div class="encabezado">
+                <img class="logos_encabezado" src="recursos/logo_alura.png" alt="Logo Alura">
+                <div class="titulos">
+                    <h1>CHALLENGE ONE SPRINT 01 </h1>
+                    <h2>ENCRIPTADOR | DESENCRIPTADOR </h2>
+                </div>
+                <img class="logos_encabezado" src="recursos/logo_charly.jpg" alt="Logo Charly">
+            </div>
+        </header>
+
+        <!-- Desarrollo de cuerpo de programa -->
+        <main>
+            <p class="texto_ayuda">ⓘ Solo letras minúsculas y sin acentos. (De no ser así, los resultados pueden no ser los esperados)</p>
+            
+            
+            <form class="caja_texto_por_trabajar" id="formulario">
+                <textarea id="texto_ingresado" placeholder="| Ingrese el texto a trabajar aquí." required></textarea>
+            </form>
+
+
+            <div class="botones">
+                <input type="button" value="Encriptar" class="boton_encriptar" onclick=encriptar()>
+                <input type="button" value="Desencriptar" class="boton_desencriptar" onclick=desencriptar()>
+            </div>
+
+
+            <div class="caja_texto_obtenido">
+                <img class="img_texto_obtenido" src="recursos/texto_sin_obtener.png" id="img_guia" alt="Imagen Texto Obtenido">
+                <p id="texto_generado" class="texto_obtenido">| Ningún mensaje ha sido encontrado...</p>
+                <input type="button" value="Copiar" class="boton_copiar" onclick=copiar_al_portapapeles()>
+            </div>
+        </main>
+
+        <footer>
+            <div class="pie_pagina">
+                <p>Desarrollo: IMT. Calzadas Rosalino Charly.   |   Coordinación: Oracle, Alura LATAM.</p>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,226 @@
+/*Configuracion base */
+body{
+    background-color: #8497B0;
+    font-family: 'Chivo Mono', monospace;
+}
+
+/*Configuracion de encabezado */
+header{
+    background-color: #2E3947;
+    padding: 0px 20px;
+}
+
+.encabezado{
+    width: 940px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.titulos{
+    display: inline-block;
+    margin: 0px 4.7%;
+    vertical-align: top;
+}
+
+header h1{
+    display: block;
+    padding-top: 7px;
+    
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+header h2{
+    display: block;
+    padding-top: 7px;
+
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.logos_encabezado{
+    display: inline-block;
+
+    height: 100px;
+}
+
+
+/*Configuracion de cuerpo principal*/
+.texto_ayuda{
+    width: 940px;
+    margin: 20px auto 10px auto;
+    padding: 0px 60px;
+
+    font-weight: bold;
+    font-size: 15px;
+    color: #3B3838
+}
+
+
+/*Configuracion de caja de texto por encriptar*/
+.caja_texto_por_trabajar{
+    width: 940px;
+    height: 200px;
+    margin: 0px auto 20px auto;
+    background-color: #6E84A2;
+    border-radius: 15px;
+}
+
+.caja_texto_por_trabajar textarea{
+    resize: none;
+    width: 95%;
+    height: 80%;
+    padding: 15px;
+
+
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+
+    border-radius: 15px;
+    border: none;
+}
+
+.caja_texto_por_trabajar textarea:focus{
+    outline: none;
+}
+
+.caja_texto_por_trabajar textarea::placeholder{
+    color: #D6DCE5;
+}
+
+
+/*Configuracion de botones para encriptar y desencriptar*/
+.botones{
+    width: 940px;
+    margin: 0px auto;
+}
+
+.boton_encriptar{
+    width: 25%;
+    height: 55px;
+    padding: 10px 0;
+    margin: 0 3% 0 20%;
+
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+
+    background-color: #333F50;
+    border: none;
+    border-radius: 5px;
+    
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.boton_encriptar:hover{
+    background-color: darkorange;
+    transform: scale(1.2);
+}
+
+.boton_desencriptar{
+    width: 25%;
+    height: 55px;
+    padding: 10px 0;
+    margin: 0 0% 0 3%;
+
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+
+    background-color: #3B3838;
+    border: none;
+    border-radius: 5px;
+    
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.boton_desencriptar:hover{
+    background-color: #87CB3D;
+    transform: scale(1.2);
+}
+
+
+/*Configuracion de caja de texto obtenido*/
+.caja_texto_obtenido{
+    width: 940px;
+    height: 200px;
+    margin: 20px auto;
+    background-color: #99A8BD;
+    border-radius: 15px;
+}
+
+.img_texto_obtenido{
+    display: inline-block;
+
+    padding: 30px 15px;
+    height: 130px;
+}
+
+.texto_obtenido{
+    display: inline-block;
+
+    width: 61%;
+    height: 120px;
+    padding: 25px 15px;
+
+    font-size: 25px;
+    color: #333F50;
+    vertical-align: top;
+}
+
+.boton_copiar{
+    display: inline-block;
+
+    width: 15%;
+    padding: 15px 0;
+    margin: 8% 0;
+    vertical-align: top;
+
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.boton_copiar:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+
+
+/*Configuracion de pie de pagina*/
+footer{
+    height: 70px;
+    background-color: #3B3838;
+}
+
+.pie_pagina{
+    width: 940px;
+    margin: 0px auto;
+}
+
+.pie_pagina p{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+
+
+
